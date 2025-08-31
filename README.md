@@ -10,15 +10,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:GEOVANA DE SOUZA FERREIRA
+- Matricula: 901354
+- Proposta de projeto escolhida: Beleza com Praticidade
+- Breve descrição sobre seu projeto: "Beleza com Praticidade" é um projeto criado por Geovana Souza, maquiadora profissional apaixonada por realçar a beleza única de cada pessoa. Com atendimento personalizado e feito com carinho, o serviço vai até você para proporcionar conforto, autoestima e uma experiência inesquecível. Seja para noivas, formandas, eventos casuais ou profissionais, cada detalhe é pensado com amor e dedicação.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img src="images/esboço.png">
 
 
 ## Print da home-page criada
