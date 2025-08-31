@@ -1,3 +1,132 @@
-body {
-    background-color: aquamarine;
+/*Formatação da estrutura*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;  
+    padding: 20px;
+    background: url(images/Sem\ nome\ \(150\ x\ 150\ px\).png) no-repeat; 
+    background-color: rgb(84, 39, 102);  
+}
+
+main {
+    background-color: rgb(228, 220, 209);
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    display: none;
+}
+
+aside {
+   background-color: rgb(204, 156, 236); 
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(231, 176, 253); 
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/*Componentes Menu principal*/
+.caixa-menuprincipal {
+    float: right; 
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none; 
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block; 
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 32, 178) ;
+    font-weight: bold;
+    padding: 10px;
+}
+  
+.caixa-menuprincipal ul li a:hover {
+    background-color: blue; 
+}
+
+
+
+/*Componentes Postagem*/
+.caixa-post {
+    margin-bottom: 20px;
+    clear: both;
+}
+.caixa-post h2{
+    font-size: 110%;
+    color: rgb(13, 1, 15);
+    padding: 20px;
+}
+.caixa-post img{
+    display: block;
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.caixa-post h4{
+    font-size: 80%;
+    color: gray;
+    margin-bottom: 5px 0;
+}
+
+.caixa-post h4 span:nth-child(3){
+    background-color: rgb(107, 0, 128);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.caixa-post p{
+    font-size: 90%;
+    color: darkolivegreen;
+}
+
+/*Componentes Categoria*/
+.caixa-categorias {   
+}
+
+.caixa-categorias ul {
+    list-style-type: none; 
+    margin-left: 10px;
+}   
+
+.caixa-categorias ul li a:{
+    color:rgb(158, 2, 189)
+}
+
+
+.caixa-categorias ul li a:visited{
+    color: rgb(112, 0, 134);
+}
+
+/*Componentes Pesquisa*/
+.caixa-pesquisa {
+    margin-bottom: 30px;
+
+   
+}
+
